@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #044354;
+  padding: 40px 70px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  cursor: pointer;
+}
+header img {
+  width: 20px;
+  height: 20px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+}
+
+/* padding-right: 2rem; */
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url("Images/office-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 90px 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero h1 {
+  color: #8cffd7;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero-p {
+  color: #ffffff;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-btn button {
+  width: 140px;
+  height: 45px;
+  color: #fff;
+  border: none;
+  border-radius: 49px;
+  cursor: pointer;
+}
+
+.hero-btn-one {
+  background-color: #045394;
+}
+
+.hero-btn-two {
+  background-color: #1084e3;
+}
+
+.about-us-cont {
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+}
+.about-us {
+  background-color: #e6effa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 60px 30px 30px;
+  border-radius: 5px;
+}
+
+.about-us img {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.about-us h2 {
+  color: #1084e3;
+}
+
+.about-us p {
+  text-align: center;
+  color: #2b2929;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 100px 10px;
+}
+
+.services {
+  display: flex;
+}
+
+.services-box {
+  padding: 10px 20px;
+  width: 33.3%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.services img {
+  width: 33.3%;
+  height: 400px;
+}
+
+.services-box img {
+  height: 70px;
+  width: 70px;
+}
+
+.services-box h2 {
+  color: #4869d9;
+}
+
+.services-box p {
+  text-align: center;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.testimonial p {
+  width: 25%;
+  height: 300px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.testimonial img {
+  width: 50%;
+  height: 300px;
+}
+
+.dash {
+  font-weight: 900;
+}
+
+.contact {
+  background-color: #0a3c4a;
+  color: #fff;
+  padding: 100px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.contact-box {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-left-bottom,
+.contact-right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right {
+  display: flex;
+  width: 50%;
+  gap: 30px;
+}
+
+.contact-right-top {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.bold {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.office {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
