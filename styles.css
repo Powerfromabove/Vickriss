@@ -23,17 +23,15 @@ header {
   font-weight: bold;
   cursor: pointer;
 }
-header img {
-  width: 20px;
-  height: 20px;
-}
 nav ul {
   display: flex;
   gap: 50px;
   font-size: 18px;
 }
 
-.hamburger-menu{
+.hamburger-menu {
+  width: 20px;
+  height: 20px;
   display: none;
 }
 
@@ -261,7 +259,7 @@ footer img {
   height: 20px;
 }
 
-@media(max-width: 1050px) {
+@media (max-width: 1050px) {
   nav ul {
     gap: 30px;
     font-size: 16px;
@@ -285,76 +283,106 @@ footer img {
   }
 
   .services-box img {
-  height: 40px;
-  width: 40px;
-}
+    height: 40px;
+    width: 40px;
+  }
 
-.services-box h2 {
-  font-size: 16px;
-}
+  .services-box h2 {
+    font-size: 16px;
+  }
 
-.services-box p {
-  font-size: 14px;
-}
+  .services-box p {
+    font-size: 14px;
+  }
 
-.testimonial p {
-  font-size: 16px;
-  height: 200px;
-}
+  .testimonial p {
+    font-size: 16px;
+    height: 200px;
+  }
 
-.testimonial img {
-  height: 200px;
-}
+  .testimonial img {
+    height: 200px;
+  }
 }
 
 @media (max-width: 768px) {
-  .hamburger-menu{
+  .hamburger-menu {
     display: flex;
     width: 30px;
-    height:30px;
+    height: 30px;
   }
 
-  nav{
+  nav {
     display: none;
   }
 
-  .hero{
+  .hero {
     padding: 90px 10%;
   }
-  .about-us-cont{
+  .about-us-cont {
     flex-direction: column;
   }
 
-  .about-us{
+  .about-us {
     padding: 30px;
   }
 
-  .services{
+  .services {
     flex-direction: column;
   }
 
-  .services-box, .services img{
+  .services-box,
+  .services img {
     width: 100%;
   }
 
-  .services-box img{
+  .services-box img {
     width: 50px;
   }
 
-  .testimonial{
+  .testimonial {
     flex-direction: column;
   }
 
-  .testimonial p, .testimonial img{
+  .testimonial p,
+  .testimonial img {
     width: 100%;
     height: auto;
   }
 
-  .contact-box{
+  .contact-box {
     flex-direction: column;
   }
 
-  .contact-left, .contact-right{
+  .contact-left,
+  .contact-right {
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .hamburger-menu{
+    width: 18px;
+    height: 18px;
+  }
+
+  .hero{
+    padding: 50px 20px;
+    gap: 15px;
+  }
+
+  .hero h1{
+    font-size: 25px;
+  }
+
+  .contact{
+    padding: 30px 20px;
+    gap: 30px;
+    font-size: 12px;
   }
 }
