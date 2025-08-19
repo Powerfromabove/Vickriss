@@ -33,7 +33,7 @@ nav ul {
   font-size: 18px;
 }
 
-.hamburger-menu{
+.hamburger-menu {
   display: none;
 }
 
@@ -261,100 +261,9 @@ footer img {
   height: 20px;
 }
 
-@media(max-width: 1050px) {
-  nav ul {
-    gap: 30px;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 910px) {
-  nav ul {
-    gap: 15px;
-    font-size: 14px;
-  }
-
-  .services-box {
-    padding: 5px 10px;
-    height: 250px;
-    gap: 8px;
-  }
-
-  .services img {
-    height: 250px;
-  }
-
-  .services-box img {
-  height: 40px;
-  width: 40px;
-}
-
-.services-box h2 {
-  font-size: 16px;
-}
-
-.services-box p {
-  font-size: 14px;
-}
-
-.testimonial p {
-  font-size: 16px;
-  height: 200px;
-}
-
-.testimonial img {
-  height: 200px;
-}
-}
-
 @media (max-width: 768px) {
-  .hamburger-menu{
-    display: flex;
-    width: 30px;
-    height:30px;
-  }
-
-  nav{
-    display: none;
-  }
-
-  .hero{
-    padding: 90px 10%;
-  }
-  .about-us-cont{
-    flex-direction: column;
-  }
-
-  .about-us{
-    padding: 30px;
-  }
-
-  .services{
-    flex-direction: column;
-  }
-
-  .services-box, .services img{
-    width: 100%;
-  }
-
-  .services-box img{
-    width: 50px;
-  }
-
-  .testimonial{
-    flex-direction: column;
-  }
-
-  .testimonial p, .testimonial img{
-    width: 100%;
-    height: auto;
-  }
-
-  .contact-box{
-    flex-direction: column;
-  }
-
-  .contact-left, .contact-right{
-    width: 100%;
+  nav {
+    text-align: colume;
+    gap: 10px;
   }
 }
